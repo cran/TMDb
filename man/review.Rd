@@ -32,7 +32,7 @@ A list with the following fields:
 \item{url}{The url of the review.}
 }
 \references{
-http://docs.themoviedb.apiary.io/#reference
+https://developers.themoviedb.org/3/getting-started
 }
 \author{
 Andrea Capozio

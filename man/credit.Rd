@@ -36,7 +36,7 @@ A list with the following fields:
 \item{person}{Name and ID of the character associated with the person.}
 }
 \references{
-http://docs.themoviedb.apiary.io/#reference
+https://developers.themoviedb.org/3/getting-started
 }
 \author{
 Andrea Capozio

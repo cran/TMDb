@@ -5,7 +5,7 @@ function(api_key, page=1, language=NA){
     l <- l[!is.na(l)]
     
     if(length(l)>0){
-        params <- paste("&", names(l), "=",l, sep="", collapse="")
+        params <- paste("&", names(l), "=", stri_join_list(l, sep = ","), sep = "", collapse = "")
         url <- fromJSON(GET(url=paste("http://api.themoviedb.org/3/movie/top_rated?api_key=", 
                                       api_key, params, sep=""))$url)
     } else{

@@ -84,7 +84,7 @@ function(api_key, certification_country=NA, certification=NA, certification.lte=
     l <- l[!is.na(l)]
     
     if(length(l)>0){
-        params <- paste("&", names(l), "=",l, sep="", collapse="")
+        params <- paste("&", names(l), "=", stri_join_list(l, sep = ","), sep = "", collapse = "")
         url <- fromJSON(GET(url=paste("http://api.themoviedb.org/3/discover/movie?api_key=", 
                                       api_key, params, sep=""))$url)   
     } else{

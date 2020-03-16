@@ -54,7 +54,7 @@ A list with the following fields:
 \item{vote_count}{The number of votes.}
 }
 \references{
-http://docs.themoviedb.apiary.io/#reference
+https://developers.themoviedb.org/3/getting-started
 }
 \author{
 Andrea Capozio

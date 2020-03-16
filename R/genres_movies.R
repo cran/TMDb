@@ -21,7 +21,7 @@ function(api_key, id, page=1, language=NA, include_all_movies=NA, include_adult=
     l <- l[!is.na(l)]
     
     if(length(l)>0){
-        params <- paste("&", names(l), "=",l, sep="", collapse="")
+        params <- paste("&", names(l), "=", stri_join_list(l, sep = ","), sep = "", collapse = "")
         url <- fromJSON(GET(url=paste("http://api.themoviedb.org/3/genre/", id, "/movies?api_key=", 
                                       api_key, params, sep=""))$url)   
     } else{

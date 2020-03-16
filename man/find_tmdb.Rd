@@ -44,7 +44,7 @@ A list with the following fields:
 \item{tv_season_results}{The results in the tv_season department.}
 }
 \references{
-http://docs.themoviedb.apiary.io/#reference
+https://developers.themoviedb.org/3/getting-started
 }
 \author{
 Andrea Capozio

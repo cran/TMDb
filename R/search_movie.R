@@ -30,7 +30,7 @@ function(api_key, query, page=1, include_adult=NA, language=NA, year=NA,
               primary_release_year=primary_release_year, search_type=search_type)
     l <- l[!is.na(l)]
     
-    params <- paste("&", names(l), "=",l, sep="", collapse="")
+    params <- paste("&", names(l), "=", stri_join_list(l, sep = ","), sep = "", collapse = "")
     
     url <- fromJSON(GET(URLencode(url<-paste("http://api.themoviedb.org/3/search/movie?api_key=", 
                                              api_key, "&query=", query, params, sep="")))$url)

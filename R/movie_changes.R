@@ -5,7 +5,7 @@ function(api_key, id, start_date=NA, end_date=NA){
     l <- l[!is.na(l)]
     
     if(length(l)>0){
-        params <- paste("&", names(l), "=",l, sep="", collapse="")
+        params <- paste("&", names(l), "=", stri_join_list(l, sep = ","), sep = "", collapse = "")
         url <- fromJSON(GET(url=paste("http://api.themoviedb.org/3/movie/", id, "/changes?api_key=", 
                                       api_key, params, sep=""))$url)
     } else{

@@ -38,7 +38,7 @@ function(api_key, page=1, language=NA, sort_by=NA, first_air_date_year=NA,
     l <- l[!is.na(l)]
     
     if(length(l)>0){
-        params <- paste("&", names(l), "=",l, sep="", collapse="")
+        params <- paste("&", names(l), "=", stri_join_list(l, sep = ","), sep = "", collapse = "")
         url <- fromJSON(GET(url=paste("http://api.themoviedb.org/3/discover/tv?api_key=", 
                                       api_key, params, sep=""))$url)   
     } else{

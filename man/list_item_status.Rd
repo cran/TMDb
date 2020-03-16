@@ -28,7 +28,7 @@ A list with the following fields:
 \item{item_present}{A logical value that indicates if a movie belongs (TRUE) or not (FALSE) to the list.}
 }
 \references{
-http://docs.themoviedb.apiary.io/#reference
+https://developers.themoviedb.org/3/getting-started
 }
 \author{
 Andrea Capozio

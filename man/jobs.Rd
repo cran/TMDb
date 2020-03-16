@@ -23,7 +23,7 @@ A single list item, with the following fields:
 \item{job_list}{The jobs for each department.}
 }
 \references{
-http://docs.themoviedb.apiary.io/#reference
+https://developers.themoviedb.org/3/getting-started
 }
 \author{
 Andrea Capozio

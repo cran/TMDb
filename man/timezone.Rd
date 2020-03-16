@@ -21,7 +21,7 @@ Your TMDb Consumer Key.
 A data.frame with the supported timezones.
 }
 \references{
-http://docs.themoviedb.apiary.io/#reference
+https://developers.themoviedb.org/3/getting-started
 }
 \author{
 Andrea Capozio

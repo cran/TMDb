@@ -31,7 +31,7 @@ A list with the following fields:
 \item{titles}{The alternative titles of the movie.}
 }
 \references{
-http://docs.themoviedb.apiary.io/#reference
+https://developers.themoviedb.org/3/getting-started
 }
 \author{
 Andrea Capozio

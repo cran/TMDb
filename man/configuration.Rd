@@ -23,7 +23,7 @@ To build an image URL, you will need 3 pieces of data. The base_url, size and fi
 The data provided with this method is required for building full image URLs, or getting a list of available image sizes. 
 }
 \references{
-http://docs.themoviedb.apiary.io/#reference
+https://developers.themoviedb.org/3/getting-started
 }
 \author{
 Andrea Capozio

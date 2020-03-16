@@ -28,7 +28,7 @@ A list with the following fields:
 \item{keywords}{The keywords associated to the movie.}
 }
 \references{
-http://docs.themoviedb.apiary.io/#reference
+https://developers.themoviedb.org/3/getting-started
 }
 \author{
 Andrea Capozio

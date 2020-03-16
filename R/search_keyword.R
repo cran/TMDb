@@ -8,7 +8,7 @@ function(api_key, query, page=1){
     l <- list(page=page)
     l <- l[!is.na(l)]
     
-    params <- paste("&", names(l), "=",l, sep="", collapse="")
+    params <- paste("&", names(l), "=", stri_join_list(l, sep = ","), sep = "", collapse = "")
     url <- fromJSON(GET(URLencode(url<-paste("http://api.themoviedb.org/3/search/collection?api_key=", 
                                              api_key, "&query=", query, params, sep="")))$url)
     

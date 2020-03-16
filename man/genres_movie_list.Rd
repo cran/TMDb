@@ -26,7 +26,7 @@ A single list item, with the following fields:
 \item{name}{The name of a movie genre.}
 }
 \references{
-http://docs.themoviedb.apiary.io/#reference
+https://developers.themoviedb.org/3/getting-started
 }
 \author{
 Andrea Capozio

@@ -33,7 +33,7 @@ A list with the following field:
 \item{changes}{The type and the object of the change.}
 }
 \references{
-http://docs.themoviedb.apiary.io/#reference
+https://developers.themoviedb.org/3/getting-started
 }
 \author{
 Andrea Capozio

@@ -1,4 +1,5 @@
-import(httr, jsonlite)
+import(httr, jsonlite, stringi)
+importFrom("utils", "URLencode")
 export(certification_movie_list)
 export(certification_tv_list)
 export(changes_movie)

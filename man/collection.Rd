@@ -35,7 +35,7 @@ A list with the following fields:
 \item{parts}{The items of the collection.}
 }
 \references{
-http://docs.themoviedb.apiary.io/#reference
+https://developers.themoviedb.org/3/getting-started
 }
 \author{
 Andrea Capozio

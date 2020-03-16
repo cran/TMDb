@@ -31,7 +31,7 @@ A list of the supported movie certifications in the following countries:
 \item{IN}{India}
 }
 \references{
-http://docs.themoviedb.apiary.io/#reference
+https://developers.themoviedb.org/3/getting-started
 }
 \author{
 Andrea Capozio
